@@ -28,7 +28,8 @@ h1{
 
 
 .tareas-lista-principal{
-  width: 600px;
+  max-width: 600px; /* Cambiamos width a max-width para que se adapte */
+  width: 100%;
   min-height: 500px;
   background-color: rgb(212, 212, 212);
   padding: 25px;

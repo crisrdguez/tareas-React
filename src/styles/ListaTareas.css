@@ -3,6 +3,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 15px;
+  gap: 10px; /* Agregamos un espacio entre las tareas */
+  overflow-x: auto; /* Agregamos una barra de desplazamiento horizontal en pantallas pequeñas */
+  /*margin-bottom: 15px;*/
 
 }
